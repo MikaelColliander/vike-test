@@ -19,7 +19,8 @@
     "@typescript-eslint/parser": "^7.3.1",
     "eslint": "^8.57.0",
     "eslint-plugin-react": "^7.34.1",
-    "typescript": "^5.4.3"
+    "typescript": "^5.4.3",
+    "vite-plugin-cjs-interop": "^2.1.0"
   },
   "dependencies": {
     "@auth/core": "^0.28.0",
@@ -43,5 +44,5 @@
     "vike-react": "^0.4.6",
     "vite": "^5.2.6",
     "vite-plugin-vercel": "^4.0.2"
-  }
+    }
 }
