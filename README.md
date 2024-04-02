@@ -1,4 +1,4 @@
-#To reproduce ESM/CJS error:
+# To reproduce ESM/CJS error:
 
 - Clone repo and run pnpm install
 
