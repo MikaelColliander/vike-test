@@ -7,7 +7,7 @@ import { cjsInterop } from "vite-plugin-cjs-interop";
 
 export default defineConfig({
   plugins: [react({}), ssr({
-    prerender: true,
+  prerender: true,
   }), telefunc(), vercel(),
   cjsInterop({
     dependencies: [
@@ -16,7 +16,4 @@ export default defineConfig({
     ]
   })
 ],
-ssr: {
-  noExternal: true
-}
 });
