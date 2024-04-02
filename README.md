@@ -1,3 +1,11 @@
+#To reproduce ESM/CJS error:
+
+- Clone repo and run pnpm install
+
+- Run npm run dev
+
+- Browse localhost:3000
+
 This app has been created with [Bati](https://batijs.dev) using the following flags: `--react --authjs --telefunc --h3 --vercel --eslint`
 
 # About this app
